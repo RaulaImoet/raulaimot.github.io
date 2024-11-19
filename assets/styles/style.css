@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef6e4; /* Pastel peach */
+    color: #444;
+}
+
+header {
+    background-color: #cce5ff; /* Pastel blue */
+    padding: 15px;
+    text-align: left;
+    border-bottom: 0px solid #a5d8ff; /* Slightly darker blue */
+}
+
+header nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 18px;
+        background-color: #ffc7c7;
+
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    color: #495057;
+    margin: 0;
+    font-size: 40px;
+    text-align: left;
+}
+
+.jumbotron {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.jumbotron img {
+    border-radius: 50%;
+    border: 5px solid #ffccd5; /* Pastel pink */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #495057;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fabd9e; /* Slightly darker orange */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background-color: #e0f7fa; /* Pastel cyan */
+}
+
+.card {
+    background-color: #fce4ec; /* Pastel pink */
+    border: 1px solid #f8bbd0; /* Slightly darker pink */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: larger;
+}
+
+.card h2 {
+    font-family: 'sans-serif';
+    color: #444; 
+    font-size: 35px;
+}
+
+.card img {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 18px;
+    background-color: #c2defc; 
+    color: #444;
+    font-size: 17px;
+}
+
+footer p {
+    margin: 0;
+}
